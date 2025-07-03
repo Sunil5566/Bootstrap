@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book>
+        <title>Java Programming</title>
+        <author>John Doe</author>
+        <price>29.99</price>
+        <year>2022</year>
+    </book>
+    <book>
+        <title>Python for Beginners</title>
+        <author>Jane Smith</author>
+        <price>24.99</price>
+        <year>2021</year>
+    </book>
+</library>

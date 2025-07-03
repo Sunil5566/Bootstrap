@@ -1,0 +1,22 @@
+.card{
+  border: 1px solid rgb(206, 200, 200);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(231, 111, 13);
+  max-width: 350px;
+  text-align: center;
+
+}
+.card .image{
+  max-width: 40%;
+  border-radius: 70px;
+  box-sizing: border-box;
+  height: auto;
+  
+  
+  
+}
+.card .name{
+color: rgb(11, 243, 255);
+
+}
+

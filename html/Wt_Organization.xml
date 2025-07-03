@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8">
+<Organization>
+  <Department>
+      <DepartmentID>101</DepartmentID>
+      <Name>Adminstrative</Name>
+      <Employees>
+         
+         <Employee> 
+           <EmployeeID>1</EmployeeID>
+           <Name> Hemraj Poudel </Name>
+           <Position> HR Manager </Position>
+           <Salary>51000</Salary>
+         </Employee>
+
+         <Employee>
+           <EmployeeID>2</EmployeeID>
+           <Name> Bishal Lamichhane </Name>
+           <Position> Recruiter </Position>
+           <Salary>20000</Salary>
+      </Employees>
+  </Department>
+
+
+    <Department>
+      <DepartmentID>102</DepartmentID>
+      <Name> IT </Name>
+      <Employees>
+         
+         <Employee> 
+           <EmployeeID>3</EmployeeID>
+           <Name>Deepka</Name>
+           <Position> Software Engineer </Position>
+           <Salary>85000</Salary>
+         </Employee>
+
+         <Employee>
+           <EmployeeID>4</EmployeeID>
+           <Name> Sunil Bhattarai</Name>
+           <Position> System Analyst </Position>
+           <Salary>75000</Salary>
+      </Employees>
+  </Department>
+
+
+</Organization>

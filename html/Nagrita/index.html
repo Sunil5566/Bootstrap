@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Citizenship Card</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ece9e6, #ffffff);
+        }
+        .citizenship {
+            width: 420px;
+            padding: 20px;
+            background: linear-gradient(135deg, #b2c4de, #dce3f2);
+            border: 2px solid #444;
+            border-radius: 15px;
+            box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            position: relative;
+        }
+        .header {
+            font-weight: bold;
+            font-size: 20px;
+            color: #222;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        .photo {
+            width: 110px;
+            height: 130px;
+            background: #ddd;
+            border: 2px solid #222;
+            margin: 10px auto;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .details {
+            text-align: left;
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            
+        }
+        .details p {
+            margin: 8px 0;
+            font-weight: 500;
+            color: #222;
+        }
+        .details p strong {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="citizenship">
+        <div class="header">Government of Nepal<br>Ministry of Home Affairs</div>
+        <div class="photo">
+            <img src="nagrita.jpg" alt="Citizenship Photo">
+        </div>
+        <div class="details">
+            <p><strong>Name:</strong> Sunil Bhattarai</p>
+            <p><strong>Citizenship Number:</strong> 123456789</p>
+            <p><strong>Date of Birth:</strong> 2060/04/15</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Mother's Name:</strong> Kamala Bhattarai</p>
+            <p><strong>Father's Name:</strong> Surya Bhattarai</p>
+            <p><strong>Address:</strong> Syangja, Nepal</p>
+        </div>
+    </div>
+</body>
+</html>

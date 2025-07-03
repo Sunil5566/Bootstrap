@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="DOM.css">
+</head>
+<body>
+    <h1 id="h1">What Can JavaScript Do?</h1>
+    <p id="p1"> Java Script can chamge HTML content.</p>
+    <!-- <button onclick="console.log('btn open')">Click Me!</button> -->
+    <!-- <button onclick="for(let i=1; i<=10; i++){
+        console.log(i);
+    }">Click Me!</button> -->
+<!-- <button onclick="count()">Click Me!</button> -->
+<button onclick="calculate()">Dinesh Chutiya Gandu</button>
+<button onclick="changeTextp1()">Change text</button>
+
+</body>
+<!-- <script src="DOM.js"></script> -->
+<!-- <script>
+function count() {
+    for(let i=1; i<=10; i++){
+        console.log(i);
+    }
+} -->
+<script>
+function calculate(){
+    // for(let i=1; i<=20; i++){
+    //     console.log(i);
+    const heading= document.getElementById("h1");
+      console.log(heading);
+      heading.innerHTML="hello gandu bishal"
+
+    }
+// }
+function changeTextp1(){
+
+const text= document.getElementById("p1");
+console.log(text);
+text.innerHTML="Hello Dinesh Gandu k xa"
+
+
+
+}
+
+
+</script>
+
+
+</html>

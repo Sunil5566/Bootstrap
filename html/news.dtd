@@ -1,0 +1,8 @@
+<!ELEMENT news (article+)>
+<!ELEMENT article (headline, author, date, content, channel)>
+<!ATTLIST article id CDATA #REQUIRED>
+<!ELEMENT headline (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT content (#PCDATA)>

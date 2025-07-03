@@ -1,0 +1,28 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <movie>
+        <title>Kabaddi</title>
+        <director>Ram Babu Gurung</director>
+        <release_year>2013</release_year>
+        <genre>Romantic Comedy</genre>
+        <cast>
+            <actor>Dayahang Rai</actor>
+            <actor>Rishma Gurung</actor>
+            <actor>Bijay Baral</actor>
+        </cast>
+        <synopsis>A love triangle set in a rural village, where a stubborn young man tries to win the heart of his beloved.</synopsis>
+    </movie>
+    
+    <movie>
+        <title>Pashupati Prasad</title>
+        <director>Dipendra K. Khanal</director>
+        <release_year>2016</release_year>
+        <genre>Drama</genre>
+        <cast>
+            <actor>Khagendra Lamichhane</actor>
+            <actor>Barsha Siwakoti</actor>
+            <actor>Prakash Ghimire</actor>
+        </cast>
+       
+    </movie>
+</movies>

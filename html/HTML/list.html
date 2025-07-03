@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: linear-gradient(135deg, #1EEBEB, #A7FEEB);
+            color: #333;
+        }
+        h1 {
+            background-color: #1EEB2C;
+            color: #005f5f;
+            padding: 10px;
+            text-align: center;
+            border-radius: 20px;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        h1:hover {
+           transform: scale(1.1);
+            background-color: #0CAA1C;
+        }
+        p {
+            color: #EEE60B;
+            font-weight: bold;
+            margin: 10px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: color 0.3s;
+        }
+        p:hover {
+            color: #FFD700;
+        }
+        ol, ul {
+            margin-left: 20px;
+            color: #B90BEE;
+            list-style-type: none;
+        }
+        li {
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        ol > li {
+            background-color: #F3E5AB;
+        }
+        ul > li {
+            background-color: #FAD7E0;
+        }
+        li:hover {
+            background-color: #FFD54F;
+            transform: translateX(10px);
+        }
+        ol > li:hover {
+            background-color: #C0EB75;
+        }
+        ul > li:hover {
+            background-color: #EFA8B8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hello Hackers</h1>
+    <p>Bishal</p>
+    <ol start="5">
+        <li>Butwal
+            <ul>
+                <li>Lumbini
+                    <ol>
+                        <li>Gautam Buddha</li>
+                        <li>Maya Devi Temple</li>
+                    </ol>
+                </li>
+                <li>Butwal Fulbari</li>
+            </ul>
+        </li>
+        <li>Pokhara</li>
+        <li>Kathmandu</li>
+    </ol>
+
+</body>
+</html>

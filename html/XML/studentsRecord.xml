@@ -1,0 +1,56 @@
+<? xml version="1.0">
+<!DOCTYPE students [
+<!ELEMENT students(name, address, age, gender, course)>
+<!ATTRLIST student(#CDATA)>
+<!ELEMENT name (firstName, lastName)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+
+
+
+
+
+]>
+<students>
+<student id = "1">
+<name> 
+<firstName>Sidd</firstName>
+<lastName>Neupane</lastName>
+</name>
+<address>Bhumai</address>
+<age> 20 </age>
+<gender>Male</gender>
+<course>BCA</course>
+</student>
+
+<student id = "2">
+<name>
+<firstName>Bishal</firstName>
+<lastName>Lamichhane</lastName>
+</name>
+<address>Sunwol</address>
+<age> 19 </age>
+<gender>Male</gender>
+<course>CSIT</course>
+</student>
+
+<student id = "3">
+<name>
+<firstName>Dinesh</firstName>
+<lastName>Poudel</lastName>
+</name>
+<address>Badipidit,Barghat</address>
+<age> 25 </age>
+<gender>Male</gender>
+<course>BCA.CSIT</course>
+</student>
+
+
+
+
+</students>

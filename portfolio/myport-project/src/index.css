@@ -1,0 +1,18 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  height: 20px;
+  width: 30px;
+ 
+}
+.navbar .navpart{
+  display: flex;
+
+
+
+
+}

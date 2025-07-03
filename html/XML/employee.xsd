@@ -1,0 +1,97 @@
+<!-- Simple Type
+<? xml version = "1.0" ?>
+<xsd:schema xmlns:xsd ="https://www.w3.org/2001/XMLSchema">
+
+<xsd:element name = "employee" type = "xsd:string">
+
+</xsd:element>
+
+</xsd:schema> -->
+
+<!-- Complex Type -->
+<? xml version = "1.0" ?>
+<xsd:schema xmlns:xsd ="https://www.w3.org/2001/XMLSchema">
+
+<xsd:element name = "employee">
+ 
+  <xsd:complexType>
+  
+  <xsd:choice>  <!-- sequence, order, choice  -->
+
+  <xsd:element name = "employee_name" type = "xsd:string"></xsd:element> 
+  <xsd:element name = "employee_age" type = "xsd:decimal">
+   
+   <xsd:restriction base= "xsd:decimal">
+  
+   <xsd:minInclusive value = "16" />
+   <xsd:maxInclusive value = "65" />
+   
+  </xsd:restriction> 
+  
+  </xsd:element> 
+   
+   
+  </xsd:choice>
+
+  
+  </xsd:complexType>
+</xsd:element>
+</xsd:schema>
+
+
+<!-- // empty element lie kasari define garney. -->
+
+<image src = "" />
+<!-- Attribute for empty elements  -->
+
+<!-- Schema -->
+<xsd:element element name = "image">
+  <xsd:complexType>
+     <xsd:attribute name = "src" type= "xsd:string"/>
+  </xsd:complexType>
+
+</xsd:element>
+
+<!-- Attribute for element with only text content -->
+<age dob = "1999" month="Jan"> 16 </age>
+
+<xsd:element name = "age">
+
+<xsd:complexType>
+   <xsd:simpleContent>
+    <xsd:extension base = "xsd:string">
+     <xsd:attribute name = "dob" type= "xsd:string"/>
+     <xsd:attribute name = "month" type = "xsd:string"/>
+    </xsd:extension>
+   </xsd:simpleContent>
+</xsd:complexType>
+
+</xsd:element>
+<!-- Default and fixed value for attributes -->
+
+<age dob = "1999" month = "Jan" type = "ad"> 19 </age>
+
+<xsd:element name = "age">
+
+<xsd:complexType>
+   <xsd:simpleContent>
+    <xsd:extension base = "xsd:string">
+     <xsd:attribute name = "dob" type= "xsd:string" use = "required" />
+     <xsd:attribute name = "month" type = "xsd:string" default = "Feb" />
+     <xsd:attribute name = "type" type = "xsd:string" fixed = "ad" />
+
+    </xsd:extension>
+   </xsd:simpleContent>
+</xsd:complexType>
+
+</xsd:element>
+
+<!-- Create an xml and xsd for organization  -->
+
+<!-- XSD facets / Restriction -->
+
+<!-- Restriction on values -->
+ <xsd: minInclusive value = "16"/>
+ <xsd:maxInclusive value = " 65"/>
+ 
+ 

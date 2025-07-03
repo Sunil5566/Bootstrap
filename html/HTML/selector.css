@@ -1,0 +1,75 @@
+/* Global Selector */
+*{
+    color: brown;
+}
+
+/* Element Selector */
+
+h1{
+    background-color: antiquewhite;
+}
+
+p {
+   letter-spacing: 5px;
+}
+
+/* Class selector */
+.border {
+    border: 1px solid black;
+}
+
+/* id selector */
+#subject {
+    color: aquamarine;
+    
+}
+
+/* Decendent combinator selector */
+.container p{
+    font-size: medium;
+    color: white;
+    letter-spacing: 2px; 
+    background-color: black;
+}
+
+
+/* Child combinator */
+.container > p{
+    font-weight: bolder;
+    color: yellowgreen;
+    background-color: rgb(102, 40, 63);
+}
+
+
+/* General sibling selector  */
+p ~ h3{
+    font-style: italic;
+}
+
+/* Adjacent sibling selector */
+p + h1{
+    font-family: monospace;
+    color: blue;
+    font-size: 2rem;
+}
+
+/* Attribute selector */
+input[type="text"]{
+    padding: 15px;
+}
+
+input[type ="password"]{
+    padding: 15px;
+    
+}
+
+/* pseudo-class */
+a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+
+
+

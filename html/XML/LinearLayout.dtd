@@ -1,0 +1,20 @@
+<!DOCTYPE LinearLayout[
+<!ELEMENT LinearLayout(TextView+) >
+<!ELEMENT TextView>
+<!ATTLIST  LinearLayout
+orientation #IMPLIED #CDTAT
+layout_width  ("match_parent" | "wrap_content") #REQUIRED
+layout_height  ("match_parent" | "wrap_content") #REQUIRED
+>
+<!ATTLIST TextView
+id CDATA #REQUIRED
+text CDATA #REQUIRED
+layout_width ("match_parent" | "wrap_content") #REQUIRED
+layout_height ("match_parent" | "wrap_content") #REQUIRED
+>
+
+]>
+
+
+
+

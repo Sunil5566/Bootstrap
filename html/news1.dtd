@@ -1,0 +1,3 @@
+<!ELEMENT News(Article+)>
+<!ELEMENT  (title, Author, Content)>
+<!ATTLIST article id CDATA #REQUIRED>
